@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll No: K17SW24"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/lastGesture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gesture Counter:"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/singlePress"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onSingle TapConfirmed :"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/onFling"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onFling                              :"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/doubleTap"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onDouble Tap                  :"
+        android:textSize="30sp"/>
+
+
+
+    <TextView
+        android:id="@+id/onDown"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onDown                             :"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/onScrolling"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onScroll                             :"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/longPress"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OnLong Press                 :"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/onShow"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onShow                             :"
+        android:textSize="30sp"/>
+</LinearLayout>
